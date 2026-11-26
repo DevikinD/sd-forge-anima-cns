@@ -7,7 +7,7 @@ from typing import Optional
 import torch
 
 from . import log
-from .schedule import gamma_row_at, gamma_scaling, interp_alpha, progress_from_sigma
+from .schedule import gamma_row_at, gamma_scaling, interp_alpha, progress_from_sigma, load_gamma_matrix
 from .spectral import color_tensor, parametric_scaling
 
 PARAMETRIC_BINS = 256
