@@ -56,7 +56,7 @@ class ColoredNoiseForForge(scripts.Script):
       `p.modified_noise` (applied to txt2img, img2img and the Hires pass).
     """
 
-    sorting_priority = 2027
+    sorting_priority = 725
 
     def title(self):
         return "Anima CNS"
